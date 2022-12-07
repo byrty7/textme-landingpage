@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #001c22;
+    list-style: none;
+}
+
+li,a,button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: blanchedalmond;
+    text-decoration: none;
+}
+
+/* -----------------------------------------------navbar------------------------------------------------------ */
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+    width: 70px;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+    color: blanchedalmond;
+}
+.nav_links li a:hover{
+    color: cadetblue;
+}
+button{
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: #014655;
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+}
+/* -------------------------------------------------------main------------------------------------------------------ */
+.scrshot{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.img1{
+    position: relative;
+    top: -23px;
+    left: 67px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    margin-left: 70px;
+    transform:rotate(350deg);
+}
+.img2{
+    position: relative;
+    top: -19px;
+    left: -70px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    transform: rotate(6deg);
+}
+.img3{
+    position: relative;
+    top: 10px;
+    left: -200px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    transform: rotate(21deg);
+}
+.dwnlod{
+    position: relative;
+    top: -81px;
+    left: 190px;
+    width: 444px;
+    border-radius: 20px;
+}
+
+.dbtn{
+    position: relative;
+    top: -105px;
+    left: -235px;
+    width: 145px;
+}
+
+
+/* -------------------------------------------------------footer---------------------------------------------------- */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #08F9B1;
+    padding-top: 20px ;
+}
+footer li{
+    display: inline-block;
+    padding: 0px 20px;
+    margin-bottom: 20px;
+    background-color:#08F9B1;
+}
+footer li a{
+    background-color: #08F9B1;
+    color: rgba(0, 76, 95, 0.8);
+}
+footer li a:hover{
+    color: cadetblue;
+}
